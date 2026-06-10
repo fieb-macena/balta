@@ -8,16 +8,25 @@
     static void Menu()
     {
         Console.WriteLine();
-        Console.WriteLine("1 - Cronômetro, 2 - Temporizador");
+        Console.WriteLine("Digite a opção desejada:");
+        Console.WriteLine("1 - Cronômetro, 2 - Temporizador, 0 - Sair");
         string inputMenu = Console.ReadLine();
 
-        Console.WriteLine("Digite o tempo a ser contabilizado (mm:ss ou ss):");
-
         switch (inputMenu)
-        {
+        {   
             case "1":
-                { Cronometro(FormataTempo(Console.ReadLine())); break; }
-            case "2": { Temporizador(FormataTempo(Console.ReadLine())); break; }
+                {
+                    Console.WriteLine("Digite o tempo a ser contabilizado (mm:ss ou ss):"); 
+                    Cronometro(FormataTempo(Console.ReadLine())); 
+                    break;
+                }
+            case "2":
+                {
+                    Console.WriteLine("Digite o tempo a ser contabilizado (mm:ss ou ss):"); 
+                    Temporizador(FormataTempo(Console.ReadLine())); 
+                    break;
+                }
+            case "0": { System.Environment.Exit(0); break;}
             default: { Console.WriteLine("Opção inválida, tente novamente"); Menu(); break; }
         }
 
@@ -45,6 +54,8 @@
             Thread.Sleep(1000);
         }
         Console.WriteLine("Cronômetro finalizado!");
+        Menu();
+
     }
 
     static void Temporizador((int segundos, int minutos) tempo)
@@ -57,6 +68,7 @@
             Thread.Sleep(1000);
         }
         Console.WriteLine("Temporizador finalizado!");
+        Menu();
     }
 
 
