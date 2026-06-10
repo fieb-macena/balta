@@ -8,7 +8,7 @@
 
     static void Menu()
     {
-        Console.WriteLine("Escolha a operação: 1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão, 5 - Sair");
+        Console.WriteLine("Escolha a operação: 1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão, 5 - Potenciação, 6 - Sair");
 
         Calcular(short.Parse(Console.ReadLine()));
     }
@@ -31,6 +31,9 @@
                 Console.WriteLine($"O resultado da divisão é: {Divisao()}");
                 break;
             case 5: 
+                Console.WriteLine($"O resultado da potenciação é: {Potenciacao()}");
+                break;
+            case 6:
                 Console.WriteLine("Saindo...");
                 System.Environment.Exit(0);
                 break;
@@ -81,6 +84,16 @@
         Console.WriteLine("Digite o segundo número:");
         float numero2 = float.Parse(Console.ReadLine());
         return numero1 / numero2;
+    }
+
+    static float Potenciacao()
+    {
+        Console.WriteLine("Digite a base:");
+        float numero1 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite o expoente:");
+        float numero2 = float.Parse(Console.ReadLine());
+        return MathF.Pow(numero1, numero2);
     }
 }
 
