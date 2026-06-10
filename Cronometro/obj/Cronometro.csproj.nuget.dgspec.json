@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj": {
+    "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj",
-        "projectName": "Calculadora",
-        "projectPath": "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj",
+        "projectName": "Cronometro",
+        "projectPath": "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj",
         "packagesPath": "C:\\Users\\victor.macena\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Balta\\Calculadora\\obj\\",
+        "outputPath": "C:\\Dev\\Balta\\Cronometro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

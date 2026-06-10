@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj",
-      "projectName": "Calculadora",
-      "projectPath": "C:\\Dev\\Balta\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Dev\\balta\\Cronometro\\Cronometro.csproj",
+      "projectName": "Cronometro",
+      "projectPath": "C:\\Dev\\balta\\Cronometro\\Cronometro.csproj",
       "packagesPath": "C:\\Users\\victor.macena\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Balta\\Calculadora\\obj\\",
+      "outputPath": "C:\\Dev\\balta\\Cronometro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
