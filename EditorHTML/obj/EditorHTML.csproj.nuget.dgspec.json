@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Balta\\editorhtml\\EditorHTML.csproj": {}
+    "C:\\Dev\\Balta\\EditorHTML\\EditorHTML.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Balta\\editorhtml\\EditorHTML.csproj": {
+    "C:\\Dev\\Balta\\EditorHTML\\EditorHTML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Balta\\editorhtml\\EditorHTML.csproj",
+        "projectUniqueName": "C:\\Dev\\Balta\\EditorHTML\\EditorHTML.csproj",
         "projectName": "EditorHTML",
-        "projectPath": "C:\\Dev\\Balta\\editorhtml\\EditorHTML.csproj",
+        "projectPath": "C:\\Dev\\Balta\\EditorHTML\\EditorHTML.csproj",
         "packagesPath": "C:\\Users\\victor.macena\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Balta\\editorhtml\\obj\\",
+        "outputPath": "C:\\Dev\\Balta\\EditorHTML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

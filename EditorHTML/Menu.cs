@@ -17,7 +17,7 @@ namespace EditorHTML
         public static void DrawCanvas()
         {
             var colunas = 50;
-            var linhas = 20;
+            var linhas = 15;
             Header(colunas);
             Body(colunas, linhas);
             Header(colunas);
@@ -70,10 +70,11 @@ namespace EditorHTML
             switch (option)
             {
                 case 1:
-                    Editor.Read();
+                    Viewer.Read();
+                    Show();
                     break;
                 case 2: 
-                    Editor.Start(); 
+                    Editor.Write(); 
                     break;
                 case 0:
                     System.Environment.Exit(0);
