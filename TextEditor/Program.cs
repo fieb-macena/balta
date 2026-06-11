@@ -1,4 +1,7 @@
-﻿Menu();
+﻿using System;
+using System.Text;
+
+Menu();
 
 static void Menu()
 {
@@ -17,12 +20,12 @@ static void Menu()
 static void NovoArquivo()
 {
     Console.WriteLine("Edite o texto: (Pressione ESC para sair)");
-    var texto = "";
+    var texto = new StringBuilder();
 
     do
     {
-        texto += Console.ReadLine();
-        texto += Environment.NewLine;
+        texto.Append(Console.ReadLine());
+        texto.Append(Environment.NewLine);
     }while(Console.ReadKey().Key != ConsoleKey.Escape);
 
     Console.WriteLine("Deseja salvar o arquivo? (S/N)");
@@ -33,7 +36,7 @@ static void NovoArquivo()
 
 }
 
-static void Salvar(string text)
+static void Salvar(StringBuilder text)
 {
     Console.Clear();
     Console.WriteLine("Digite o caminho do arquivo a ser salvo:");
@@ -44,7 +47,7 @@ static void Salvar(string text)
         arquivo.Write(text);
     }
 
-    Console.WriteLine("Arquivo salvo com sucesso em " + caminho);
+    Console.WriteLine(string.Format("Arquivo salvo com sucesso em {0}", caminho));
 }
 
 static void Abrir()

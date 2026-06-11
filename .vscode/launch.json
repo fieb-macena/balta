@@ -8,7 +8,15 @@
             "name": "C#: Cronometro Debug",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj"
+            "projectPath": "C:\\Dev\\Balta\\Cronometro\\Cronometro.csproj",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "C#: EditorHTML Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "C:\\Dev\\Balta\\EditorHTML\\EditorHTML.csproj",
+            "console": "integratedTerminal"
         }
 
     ]
