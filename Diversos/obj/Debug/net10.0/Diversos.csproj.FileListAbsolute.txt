@@ -1,0 +1,15 @@
+C:\Dev\Balta\Diversos\bin\Debug\net10.0\Diversos.exe
+C:\Dev\Balta\Diversos\bin\Debug\net10.0\Diversos.deps.json
+C:\Dev\Balta\Diversos\bin\Debug\net10.0\Diversos.runtimeconfig.json
+C:\Dev\Balta\Diversos\bin\Debug\net10.0\Diversos.dll
+C:\Dev\Balta\Diversos\bin\Debug\net10.0\Diversos.pdb
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.AssemblyInfoInputs.cache
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.AssemblyInfo.cs
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.csproj.CoreCompileInputs.cache
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.sourcelink.json
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.dll
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\refint\Diversos.dll
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.pdb
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\Diversos.genruntimeconfig.cache
+C:\Dev\Balta\Diversos\obj\Debug\net10.0\ref\Diversos.dll
