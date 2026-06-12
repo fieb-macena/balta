@@ -65,6 +65,6 @@ class Program
         var timeSpanDHMSM = new TimeSpan(5,12,23,24,200);
         Console.WriteLine(timeSpanHMS);*/
 
-        
+        Arrays.Show();
     }
 }

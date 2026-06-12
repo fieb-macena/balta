@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diversos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84e7b3ad0e53873c115861fc91869c1e2595fac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d36331905d06b3897383c59776f1e3730d343c82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diversos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diversos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
